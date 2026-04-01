@@ -10,7 +10,10 @@ export interface PostMeta {
   title: string;
   description: string;
   date: string;
+  category: string;
   tags: string[];
+  series?: string;
+  seriesOrder?: number;
   readingTime: string;
   published: boolean;
 }
@@ -37,7 +40,10 @@ export function getAllPosts(): PostMeta[] {
         title: data.title ?? slug,
         description: data.description ?? "",
         date: data.date ?? "",
+        category: data.category ?? "fundamentals",
         tags: data.tags ?? [],
+        series: data.series,
+        seriesOrder: data.seriesOrder,
         readingTime: readingTime(content).text,
         published: data.published !== false,
       };
@@ -61,7 +67,10 @@ export function getPostBySlug(slug: string): Post | null {
       title: data.title ?? slug,
       description: data.description ?? "",
       date: data.date ?? "",
+      category: data.category ?? "fundamentals",
       tags: data.tags ?? [],
+      series: data.series,
+      seriesOrder: data.seriesOrder,
       readingTime: readingTime(content).text,
       published: data.published !== false,
     },
