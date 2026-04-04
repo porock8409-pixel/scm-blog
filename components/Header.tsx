@@ -10,6 +10,9 @@ export function Header() {
         <Link href="/blog" className="hover:text-gray-900">
           글 목록
         </Link>
+        <Link href="/search" className="hover:text-gray-900">
+          검색
+        </Link>
         <Link href="/about" className="hover:text-gray-900">
           소개
         </Link>
