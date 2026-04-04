@@ -85,3 +85,19 @@ export function getAllSlugs(): string[] {
     .filter((f) => f.endsWith(".mdx"))
     .map((f) => f.replace(/\.mdx$/, ""));
 }
+
+export function getSeriesPosts(series: string): PostMeta[] {
+  return getAllPosts()
+    .filter((p) => p.series === series)
+    .sort((a, b) => (a.seriesOrder ?? 0) - (b.seriesOrder ?? 0));
+}
+
+export function getAllCategories(): string[] {
+  const posts = getAllPosts();
+  const categories = [...new Set(posts.map((p) => p.category))];
+  return categories.sort();
+}
+
+export function getPostsByCategory(category: string): PostMeta[] {
+  return getAllPosts().filter((p) => p.category === category);
+}

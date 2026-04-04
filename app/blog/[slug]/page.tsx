@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import { getAllSlugs, getPostBySlug } from "@/lib/mdx";
+import { getAllSlugs, getPostBySlug, getSeriesPosts } from "@/lib/mdx";
 import { mdxComponents } from "@/components/MDXComponents";
+import { SeriesNav } from "@/components/SeriesNav";
 import type { Metadata } from "next";
 
 interface Props {
@@ -35,6 +36,10 @@ export default async function BlogPost({ params }: Props) {
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
+  const seriesPosts = post.meta.series
+    ? getSeriesPosts(post.meta.series)
+    : [];
+
   return (
     <article>
       <header className="mb-10">
@@ -59,6 +64,14 @@ export default async function BlogPost({ params }: Props) {
       <div className="prose prose-gray max-w-none">
         <MDXRemote source={post.content} components={mdxComponents} />
       </div>
+
+      {post.meta.series && seriesPosts.length > 1 && (
+        <SeriesNav
+          currentSlug={slug}
+          series={post.meta.series}
+          seriesPosts={seriesPosts}
+        />
+      )}
     </article>
   );
 }
