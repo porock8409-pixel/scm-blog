@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
   description:
     "SCM 실무 지식을 쉽게 풀어서 전달합니다. 공급망 관리, 물류, 구매, 재고 관리 등 현장 경험 기반의 인사이트.",
-  metadataBase: new URL("https://scm-blog.vercel.app"),
+  metadataBase: new URL("https://porock8409-pixel.github.io/scm-blog"),
   openGraph: {
     type: "website",
     locale: "ko_KR",
@@ -44,7 +44,7 @@ export default function RootLayout({
               name: "SCM Blog",
               description:
                 "SCM 실무 지식을 쉽게 풀어서 전달합니다. 공급망 관리, 물류, 구매, 재고 관리 등 현장 경험 기반의 인사이트.",
-              url: "https://scm-blog.vercel.app",
+              url: "https://porock8409-pixel.github.io/scm-blog",
               inLanguage: "ko",
               publisher: {
                 "@type": "Organization",

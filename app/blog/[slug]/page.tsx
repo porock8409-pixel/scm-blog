@@ -56,10 +56,10 @@ export default async function BlogPost({ params }: Props) {
       name: "SCM Blog",
     },
     keywords: post.meta.tags.join(", "),
-    url: `https://scm-blog.vercel.app/blog/${slug}`,
+    url: `https://porock8409-pixel.github.io/scm-blog/blog/${slug}`,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://scm-blog.vercel.app/blog/${slug}`,
+      "@id": `https://porock8409-pixel.github.io/scm-blog/blog/${slug}`,
     },
   };
 

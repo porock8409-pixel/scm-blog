@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SCM Blog - 공급망 관리 실무 지식</title>
+    <link>https://porock8409-pixel.github.io/scm-blog</link>
+    <description>SCM 실무 지식을 쉽게 풀어서 전달합니다.</description>
+    <language>ko</language>
+    <lastBuildDate>Sat, 04 Apr 2026 19:44:49 GMT</lastBuildDate>
+    <atom:link href="https://porock8409-pixel.github.io/scm-blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>APS: MRP를 넘어서는 고급 생산 계획 시스템</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/aps-advanced-planning</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/aps-advanced-planning</guid>
+      <description>MRP만으로 부족할 때, APS가 답인가? 유한 능력 스케줄링, 동시 최적화, 실시간 계획 — APS의 개념과 현실적인 도입 판단 기준.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>manufacturing</category>
+    </item>
+    <item>
+      <title>쿠팡 로켓배송: 새벽에 도착하는 물류 시스템의 구조</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/case-coupang-logistics</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/case-coupang-logistics</guid>
+      <description>주문 후 다음 날 새벽 도착. 쿠팡의 로켓배송은 어떤 물류 시스템으로 작동하는가? 풀필먼트센터, 자체 배송, 재고 선배치 — 쿠팡 물류의 SCM 원리.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>logistics</category>
+    </item>
+    <item>
+      <title>이케아(IKEA): 가구 SCM의 교과서</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/case-ikea-supply-chain</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/case-ikea-supply-chain</guid>
+      <description>이케아는 어떻게 전 세계에서 저렴한 가격으로 가구를 팔 수 있는가? 플랫팩, 글로벌 소싱, 자체 물류 — 가구업체가 가장 관심 가져야 할 SCM 사례.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>strategy</category>
+    </item>
+    <item>
+      <title>삼성전자 반도체 공급망: 수율 경쟁과 초정밀 SCM</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/case-samsung-semiconductor-scm</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/case-samsung-semiconductor-scm</guid>
+      <description>반도체 SCM은 왜 특별한가? 수조 원의 설비 투자, 나노미터 단위의 정밀도, 수율이 곧 경쟁력 — 삼성전자 반도체 공급망의 구조와 SCM 인사이트.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>manufacturing</category>
+    </item>
+    <item>
+      <title>도요타 JIT: 재고 제로를 향한 공급망의 철학</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/case-toyota-jit</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/case-toyota-jit</guid>
+      <description>도요타 생산시스템(TPS)의 핵심인 JIT. 필요한 것을, 필요한 때에, 필요한 만큼만. 간판 시스템부터 자동화(지도카)까지 — 도요타 SCM의 원리와 현실적 적용.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>manufacturing</category>
+    </item>
+    <item>
+      <title>자라(Zara)의 SCM: 2주 만에 매장에 거는 패스트패션의 비밀</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/case-zara-fast-fashion-scm</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/case-zara-fast-fashion-scm</guid>
+      <description>디자인에서 매장까지 2주. 자라는 어떻게 이 속도를 만들었나? 수직 통합, 소량 다빈도 생산, 실시간 수요 대응 — 자라 SCM의 핵심 전략.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>strategy</category>
+    </item>
+    <item>
+      <title>CPFR: 공급업체와 함께 예측하고 계획하다</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/cpfr-collaborative-planning</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/cpfr-collaborative-planning</guid>
+      <description>CPFR은 공급망 파트너와 수요 예측, 생산 계획을 공유하는 협업 모델이다. Walmart와 P&amp;G의 성공 사례부터, 가구업체가 적용할 수 있는 현실적 수준까지.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>demand-planning</category>
+    </item>
+    <item>
+      <title>데이터 기반 의사결정: 감이 아닌 숫자로</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/data-driven-scm-decisions</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/data-driven-scm-decisions</guid>
+      <description>경험 많은 사람의 감이 데이터보다 나을 때도 있다. 하지만 감에만 의존하면 조직이 성장하지 못한다. SCM에서 데이터 기반 의사결정이란 무엇이고, 어디서부터 시작하는가.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>analytics</category>
+    </item>
+    <item>
+      <title>DDMRP: 수요 기반 자재 계획, MRP의 진화</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/ddmrp-demand-driven</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/ddmrp-demand-driven</guid>
+      <description>전통 MRP의 한계를 넘는 DDMRP. 전략적 버퍼 배치, 수요 신호 기반 보충, 가시성 확보까지 — 불확실성 시대의 자재 계획 방법론.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>inventory</category>
+    </item>
+    <item>
+      <title>디지털 SCM: 기술이 바꾸는 공급망의 현재</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/digital-scm-transformation</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/digital-scm-transformation</guid>
+      <description>ERP 다음은 뭔가? IoT, 디지털 트윈, 클라우드, RPA까지. 기술 용어에 휘둘리지 않고 우리 회사에 맞는 디지털 전환을 판단하는 기준. 가구업체 SCM 디지털화의 현실적인 로드맵.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>analytics</category>
+    </item>
+    <item>
+      <title>듀얼소싱과 멀티소싱: 공급업체를 몇 곳 두어야 하나</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/dual-sourcing-strategy</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/dual-sourcing-strategy</guid>
+      <description>한 곳에서 사면 단가는 좋지만 리스크가 크다. 여러 곳에서 사면 안전하지만 관리가 복잡하다. 싱글소싱, 듀얼소싱, 멀티소싱의 장단점과 품목별 최적 전략을 가구업체 사례로 정리했다.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>strategy</category>
+    </item>
+    <item>
+      <title>ERP 재고관리, 실무자가 매일 쓰는 화면 5개</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/erp-inventory-screens</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/erp-inventory-screens</guid>
+      <description>ERP를 도입했는데 어디를 봐야 할지 모르겠다면? 가구업체 SCM 담당자가 하루도 빠짐없이 여는 화면 5개와 각 화면에서 실제로 하는 일을 정리했다.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>엑셀로 하는 재고 시뮬레이션</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/excel-inventory-simulation</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/excel-inventory-simulation</guid>
+      <description>안전재고를 얼마로 잡아야 하나? 발주점은? 엑셀에서 수요 변동과 리드타임을 넣고 돌려보면 답이 보인다. 가구업체 원단 재고를 예시로 안전재고·발주점·서비스레벨 시뮬레이션 방법.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>analytics</category>
+    </item>
+    <item>
+      <title>공장도가란? SCM에서 가격의 출발점</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/factory-cost-starting-point</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/factory-cost-starting-point</guid>
+      <description>거래명세서에 찍힌 숫자가 공장도가가 아니다. 원재료비, 가공비, 관리비, 이윤이 쌓이는 구조를 이해해야 구매 협상에서 진짜 힘이 생긴다. 가구업체 실무 예시로 공장도가 해부하기.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>procurement</category>
+    </item>
+    <item>
+      <title>FTA와 관세: SCM 담당자가 반드시 알아야 할 것</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/fta-customs-scm</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/fta-customs-scm</guid>
+      <description>관세가 SCM 비용에 미치는 영향은 크다. FTA를 활용하면 관세를 줄일 수 있다. HS Code, 원산지 결정 기준, FTA 활용 절차를 실무 수준에서 정리했다.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>logistics</category>
+    </item>
+    <item>
+      <title>글로벌 SCM: 국경을 넘으면 복잡도가 달라진다</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/global-scm-overview</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/global-scm-overview</guid>
+      <description>글로벌 공급망은 국내 SCM과 뭐가 다른가? 환율, 관세, 리드타임, 규제, 문화까지 — 국경을 넘는 순간 추가되는 변수들과 관리 포인트.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>logistics</category>
+    </item>
+    <item>
+      <title>글로벌 공급망 리스크: 지정학이 SCM을 흔들 때</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/global-supply-chain-risk</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/global-supply-chain-risk</guid>
+      <description>팬데믹, 미중갈등, 수에즈 운하 사고, 우크라이나 전쟁 — 글로벌 공급망은 계속 흔들리고 있다. 지정학적 리스크가 SCM에 미치는 영향과 대응 전략.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>strategy</category>
+    </item>
+    <item>
+      <title>국제 물류와 인코텀즈: FOB, CIF가 뭔지 5분 만에</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/international-logistics-incoterms</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/international-logistics-incoterms</guid>
+      <description>해외 거래에서 FOB, CIF, EXW가 뭔지 모르면 비용과 리스크 배분을 못 한다. 인코텀즈 2020의 핵심 조건과 국제 물류의 기본 구조를 SCM 실무 관점에서 정리.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>logistics</category>
+    </item>
+    <item>
+      <title>Kraljic Matrix: 우리 품목을 네 칸에 넣어보면</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/kraljic-matrix-practical</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/kraljic-matrix-practical</guid>
+      <description>모든 품목을 똑같이 관리하면 중요한 걸 놓친다. 공급 리스크와 구매 비중, 두 축으로 품목을 네 칸에 나누면 어디에 힘을 줘야 할지 보인다. 가구업체 자재를 직접 분류하며 크랄릭 매트릭스를 풀어봤다.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>procurement</category>
+    </item>
+    <item>
+      <title>Kraljic 매트릭스: 품목마다 다른 구매 전략이 필요하다</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/kraljic-matrix-sourcing</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/kraljic-matrix-sourcing</guid>
+      <description>모든 품목을 같은 방식으로 사는 것은 비효율이다. Kraljic 매트릭스로 품목을 4가지로 분류하고, 각각에 맞는 구매 전략을 세우는 방법. 가구업체 사례 포함.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>procurement</category>
+    </item>
+    <item>
+      <title>Make or Buy: 자체 생산 vs 외주, 어떻게 결정하나</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/make-or-buy-decision</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/make-or-buy-decision</guid>
+      <description>직접 만드는 게 나은가, 외주를 주는 게 나은가. 원가만 비교하면 답이 안 나온다. 품질, 리드타임, 핵심역량, 공급 리스크까지 고려해야 한다. 가구업체 공정별 내제/외주 판단 사례.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>manufacturing</category>
+    </item>
+    <item>
+      <title>MRP가 뱉어내는 숫자의 의미</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/mrp-output-explained</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/mrp-output-explained</guid>
+      <description>MRP 돌렸더니 계획 발주 47건. 이걸 다 주문해야 하나? ERP가 내뱉는 숫자를 어떻게 읽고, 어디서 판단해야 하는지 실무 기준으로 정리했다.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>tools</category>
+    </item>
+    <item>
+      <title>OEE: 공장 효율을 한 숫자로 말하면</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/oee-factory-efficiency</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/oee-factory-efficiency</guid>
+      <description>공장이 바쁜데 생산량이 안 나온다? 가동률, 성능률, 양품률 세 가지를 곱하면 설비가 실제로 얼마나 일하는지 보인다. 가구업체 라인별 OEE 비교와 개선 포인트를 정리했다.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>manufacturing</category>
+    </item>
+    <item>
+      <title>해외 소싱: 중국, 베트남, 인도 어디서 살 것인가</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/overseas-sourcing-guide</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/overseas-sourcing-guide</guid>
+      <description>해외 소싱 국가 비교. 중국의 인프라, 베트남의 비용, 인도의 규모 — 각 국가의 강점과 약점, 가구업체의 소싱 전략.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>procurement</category>
+    </item>
+    <item>
+      <title>공정 개선, 작은 변화가 큰 차이를 만든다</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/process-improvement-kaizen</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/process-improvement-kaizen</guid>
+      <description>한 번에 혁신하려면 실패한다. 매일 조금씩 낭비를 줄이는 게 카이젠이다. 가구 공장의 7대 낭비를 찾아내고, 현장에서 바로 적용할 수 있는 린 생산의 핵심 원리를 풀어봤다.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>manufacturing</category>
+    </item>
+    <item>
+      <title>구매 담당자의 하루: 발주에서 정산까지</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/procurement-daily-routine</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/procurement-daily-routine</guid>
+      <description>견적 받고 발주서 보내고 물건 받으면 끝이 아니다. 구매 담당자가 매일 아침 ERP를 열었을 때부터 정산까지, 실제 업무 흐름을 타임라인으로 풀어봤다.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>procurement</category>
+    </item>
+    <item>
+      <title>생산계획이란? 수요에서 공장까지</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/production-planning-basics</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/production-planning-basics</guid>
+      <description>영업이 수주를 따오면 공장은 그냥 만들면 되는 거 아닌가? 아니다. 수요를 공장 스케줄로 바꾸는 과정에는 MPS, 자재 확인, 설비 배분이 모두 엮여 있다. 가구업체 생산계획 실무를 풀어봤다.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>manufacturing</category>
+    </item>
+    <item>
+      <title>생산 스케줄링: 납기를 맞추는 기술</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/production-scheduling-practice</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/production-scheduling-practice</guid>
+      <description>주문은 10건인데 라인은 3개뿐이다. 어떤 순서로 만들어야 납기를 다 맞출 수 있나? 가구업체 생산 스케줄링의 실무 — 병목 관리, 우선순위 결정, 긴급 오더 대응까지.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>manufacturing</category>
+    </item>
+    <item>
+      <title>SCM 팀이 월요일부터 바로 실행할 수 있는 10가지</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/scm-10-quick-wins</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/scm-10-quick-wins</guid>
+      <description>대규모 프로젝트나 시스템 도입 없이, 지금 당장 시작할 수 있는 SCM 개선 10가지. 엑셀 하나, 회의 하나, 기준 하나를 바꾸는 것부터.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>fundamentals</category>
+    </item>
+    <item>
+      <title>SCM 직무, 뭘 하는 사람들인가: 커리어 로드맵</title>
+      <link>https://porock8409-pixel.github.io/scm-blog/blog/scm-career-roadmap</link>
+      <guid isPermaLink="true">https://porock8409-pixel.github.io/scm-blog/blog/scm-career-roadmap</guid>
+      <description>SCM 부서에서 일한다는 건 뭘 하는 건가? 구매, 물류, 생산관리, 수요예측까지 — SCM 직무의 종류와 성장 경로를 실무자 시점에서 정리했다.</description>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 GMT</pubDate>
+      <category>fundamentals</category>
+    </item>
+  </channel>
+</rss>

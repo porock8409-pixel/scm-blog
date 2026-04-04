@@ -85,7 +85,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
               color: "#9ca3af",
             }}
           >
-            scm-blog.vercel.app
+            porock8409-pixel.github.io/scm-blog
           </div>
         </div>
       </div>

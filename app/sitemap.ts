@@ -1,7 +1,9 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/mdx";
 
-const BASE_URL = "https://scm-blog.vercel.app";
+export const dynamic = "force-static";
+
+const BASE_URL = "https://porock8409-pixel.github.io/scm-blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();
