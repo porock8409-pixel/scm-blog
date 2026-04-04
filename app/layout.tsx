@@ -29,6 +29,26 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "SCM Blog",
+              description:
+                "SCM 실무 지식을 쉽게 풀어서 전달합니다. 공급망 관리, 물류, 구매, 재고 관리 등 현장 경험 기반의 인사이트.",
+              url: "https://scm-blog.vercel.app",
+              inLanguage: "ko",
+              publisher: {
+                "@type": "Organization",
+                name: "SCM Blog",
+              },
+            }),
+          }}
+        />
+      </head>
       <body className="min-h-screen bg-white font-sans text-gray-900 antialiased">
         <div className="mx-auto flex min-h-screen max-w-2xl flex-col px-6">
           <Header />

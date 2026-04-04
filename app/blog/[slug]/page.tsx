@@ -40,8 +40,34 @@ export default async function BlogPost({ params }: Props) {
     ? getSeriesPosts(post.meta.series)
     : [];
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.meta.title,
+    description: post.meta.description,
+    datePublished: post.meta.date,
+    author: {
+      "@type": "Person",
+      name: "Won",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "SCM Blog",
+    },
+    keywords: post.meta.tags.join(", "),
+    url: `https://scm-blog.vercel.app/blog/${slug}`,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://scm-blog.vercel.app/blog/${slug}`,
+    },
+  };
+
   return (
     <article>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <header className="mb-10">
         <time className="text-sm text-gray-500">{post.meta.date}</time>
         <h1 className="mt-2 text-3xl font-bold tracking-tight">
