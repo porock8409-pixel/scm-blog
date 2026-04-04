@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://porock8409-pixel.github.io/scm-blog/sitemap.xml
