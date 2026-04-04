@@ -125,6 +125,27 @@ const SERIES_META: Record<string, { label: string; description: string }> = {
   "scm-quick-wins": { label: "실무 Quick Wins", description: "바로 실행 가능한 개선 팁" },
 };
 
+export function getRelatedPosts(slug: string, limit = 4): PostMeta[] {
+  const allPosts = getAllPosts();
+  const current = allPosts.find((p) => p.slug === slug);
+  if (!current) return [];
+
+  const scored = allPosts
+    .filter((p) => p.slug !== slug)
+    .map((p) => {
+      let score = 0;
+      if (p.category === current.category) score += 3;
+      if (p.series && p.series === current.series) score += 2;
+      const sharedTags = p.tags.filter((t) => current.tags.includes(t));
+      score += sharedTags.length;
+      return { post: p, score };
+    })
+    .filter((s) => s.score > 0)
+    .sort((a, b) => b.score - a.score);
+
+  return scored.slice(0, limit).map((s) => s.post);
+}
+
 export function getAllSeries(): SeriesInfo[] {
   const posts = getAllPosts();
   const seriesMap = new Map<string, PostMeta[]>();

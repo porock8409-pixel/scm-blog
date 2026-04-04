@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import { getAllSlugs, getPostBySlug, getSeriesPosts } from "@/lib/mdx";
+import { getAllSlugs, getPostBySlug, getSeriesPosts, getRelatedPosts } from "@/lib/mdx";
 import { mdxComponents } from "@/components/MDXComponents";
 import { SeriesNav } from "@/components/SeriesNav";
+import { RelatedPosts } from "@/components/RelatedPosts";
 import type { Metadata } from "next";
 
 interface Props {
@@ -98,6 +99,8 @@ export default async function BlogPost({ params }: Props) {
           seriesPosts={seriesPosts}
         />
       )}
+
+      <RelatedPosts posts={getRelatedPosts(slug)} />
     </article>
   );
 }
